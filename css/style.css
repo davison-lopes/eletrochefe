@@ -1,0 +1,83 @@
+/* Custom Stylesheet */
+.list-icon li{
+  display: inline-block;
+  color: red;
+}
+.none{
+  display: none;
+}
+nav{
+  background-color: none;
+
+}
+nav li a {
+  color: #000;
+  margin-top: 25px;
+  text-transform: uppercase;
+  text-shadow: 1px, 1px, 1px, black;
+}
+
+
+.nav-local{
+  height: 120px;
+}
+
+#logo{
+  width: 130px;
+}
+
+#text-local{
+  color: #e65100 ;
+  text-shadow: 2px, 2px, 2px, #ffffff;
+ 
+  
+
+}
+.icon-color{
+  color: red;
+}
+.social-icon{
+  width: 25px;
+}
+
+
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+  background-color: rgba(0,0,0,.6);
+
+}
+  .parallax-container .section {
+    
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
